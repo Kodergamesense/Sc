@@ -1,0 +1,41 @@
+# Build artifacts
+*.obj
+*.o
+*.lib
+*.exp
+*.ilk
+*.pdb
+*.idb
+
+# Debug builds
+Debug/
+x64/Debug/
+
+# IDE files
+.vs/
+*.vcxproj.user
+*.suo
+*.sln.docstates
+
+# Config files that may contain secrets
+config.ini
+*.ini
+!.gitignore
+
+# OS files
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# Downloaded runtime installers
+MicrosoftEdgeWebview2Setup.exe
+
+# Local profile data
+profile_avatar.jpg
+track_artwork.jpg
+listening_history.ini
